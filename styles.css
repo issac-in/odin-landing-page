@@ -1,0 +1,40 @@
+header, footer, .hero-banner {
+    background-color: #1F2937;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-banner h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-banner p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.more-info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.testimonial blockquote {
+    font-size: 36px;
+    font-style: italic; /* supposed to be light italic */
+    color: #1F2937
+}
+
+.call-to-action, .sign-up {
+    background-color: #3882F6;
+}
+
