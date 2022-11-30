@@ -40,6 +40,12 @@ header .nav-links a, .hero-banner p, .hero-banner img {
     color: #F9FAF8;
 }
 
+.hero-banner img {
+    background-color: #6D747D;
+    min-width: 522px;
+    min-height: 237px;
+}
+
 .more-info h2 {
     font-size: 36px;
     font-weight: 900;
@@ -49,9 +55,8 @@ header .nav-links a, .hero-banner p, .hero-banner img {
 .more-info img {
     border-radius: 20px;
     border: solid #3882F6 4px;
-    padding: 75px;
-    width: 100px;
-    height: 100px;
+    min-width: 168px;
+    min-height: 168px;
 }
 
 .more-info figcaption {
