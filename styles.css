@@ -60,7 +60,7 @@ header .nav-links a, .hero-banner p, .hero-banner img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 38px;
 }
 
 .hero-banner h1 {
