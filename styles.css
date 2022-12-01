@@ -134,6 +134,15 @@ header .nav-links a, .hero-banner p, .hero-banner img {
 
 .testimonial {
     background-color: #E5E7EB;
+
+    padding: 90px 108px 72px;
+}
+
+.testimonial .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .testimonial blockquote {
@@ -144,7 +153,10 @@ header .nav-links a, .hero-banner p, .hero-banner img {
 }
 
 .testimonial figcaption {
+    font-size: 20px;
     font-weight: bold;
+
+    margin-right: 36px;
 }
 
 .call-to-action, .sign-up {
