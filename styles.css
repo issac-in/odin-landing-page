@@ -16,11 +16,6 @@ header, footer, .hero-banner {
 
 header, footer {
     height: 84px;
-    border: solid red 2px; /* remove later */
-}
-
-section {
-    border: solid orange 2px; /* remove later */
 }
 
 header nav {
@@ -70,7 +65,7 @@ header .nav-links a, .hero-banner p, .hero-banner img {
 }
 
 .hero-banner p {
-    margin: 0px 0 14px; /* tentative */
+    margin: 0px 0 14px;
 }
 
 .hero-banner .sign-up {
