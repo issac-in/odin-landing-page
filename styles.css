@@ -159,18 +159,36 @@ header .nav-links a, .hero-banner p, .hero-banner img {
     margin-right: 36px;
 }
 
-.call-to-action, .sign-up {
-    background-color: #3882F6;
-    color: #E5E7EB;
+.call-to-action {
+    padding: 72px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.call-to-action h3 {
+.call-to-action .cta-box {
+    border-radius: 10px;
+    padding: 36px 96px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+}
+
+.cta-box h3 {
     font-size: 24px;
     font-weight: bold;
 }
 
-.call-to-action .sign-up {
+.cta-box .sign-up {
     border: solid #fff 2px;
+}
+
+.cta-box, .sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 .sign-up {
