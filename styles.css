@@ -59,6 +59,7 @@ header {
 
 .hero-main {
     font-size: 48px;
+    font-weight: 800;
     color: var(--hero-primary-color);
 }
 
@@ -83,6 +84,42 @@ button {
     text-align: center;
     color: var(--hero-secondary-color);
     background-color: grey;
+}
+
+/* Carousel Styling */
+.carousel {
+    padding-top: 48px;
+    padding-bottom: 128px;
+}
+
+.info {
+    margin-bottom: 48px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--bg-primary-color);
+}
+
+.carousel div {
+    gap: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel figure {
+    flex-basis: 128px;
+}
+
+.carousel img {
+    width: 150px;
+    height: 150px;
+    border: 4px var(--accent-primary-color) solid;
+    border-radius: 16px;
+}
+
+.carousel figcaption {
+    text-align: center;
+    color: var(--bg-primary-color);
 }
 
 /* Footer Styling */
