@@ -42,6 +42,49 @@ header {
     color: var(--hero-secondary-color);
 }
 
+/* Hero Banner Styling */
+.hero-banner {
+    padding-top: 64px;
+    padding-bottom: 128px;
+    gap: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-primary-color);
+}
+
+.hero-banner section {
+    display: column;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: var(--hero-primary-color);
+}
+
+.hero-sub {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: var(--hero-secondary-color);
+}
+
+button {
+    padding: 6px 32px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--hero-primary-color);
+    background-color: var(--accent-primary-color);
+}
+
+.hero-banner img {
+    flex: 1 0 500px;
+    text-align: center;
+    color: var(--hero-secondary-color);
+    background-color: grey;
+}
+
 /* Footer Styling */
 footer {
     height: 72px;
