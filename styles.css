@@ -122,6 +122,26 @@ button {
     color: var(--bg-primary-color);
 }
 
+/* Testimonial Styling */
+.testimonial {
+    padding: 128px 256px;
+    background-color: var(--hero-secondary-color);
+}
+
+.testimonial blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--bg-primary-color)
+}
+
+.testimonial p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: var(--bg-primary-color);
+}
+
 /* Footer Styling */
 footer {
     height: 72px;
