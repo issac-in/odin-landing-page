@@ -142,6 +142,36 @@ button {
     color: var(--bg-primary-color);
 }
 
+/* Call to Action Styling */
+.white-bg {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: var(--hero-primary-color);
+}
+
+.call-to-action {
+    padding: 32px 96px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent-primary-color);
+}
+
+.call-to-action h3 {
+    font-size: 20px;
+    color: var(--hero-primary-color);
+}
+
+.call-to-action p {
+    margin-top: 2px;
+    color: var(--hero-secondary-color);
+}
+
+.call-to-action button {
+    border: 2px var(--hero-primary-color) solid;
+}
+
 /* Footer Styling */
 footer {
     height: 72px;
