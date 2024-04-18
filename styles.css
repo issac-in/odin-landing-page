@@ -20,8 +20,9 @@ body > * {
     padding-right: var(--default-padding-value);
 }
 
+/* Header Styling */
 header {
-    padding: 16px var(--default-padding-value);
+    height: 72px;
     gap: 16px;
     display: flex;
     align-items: center;
@@ -41,3 +42,12 @@ header {
     color: var(--hero-secondary-color);
 }
 
+/* Footer Styling */
+footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-primary-color);
+    color: var(--hero-secondary-color);
+}
