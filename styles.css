@@ -1,7 +1,43 @@
-/* Color Palette */
+/* Reference Variables */
 :root {
     --bg-primary-color: #1F2937;
     --hero-primary-color: #F9FAF8;
     --hero-secondary-color: #E5E7EB;
     --accent-primary-color:#3882F6;
+    --default-padding-value: 180px;
 }
+
+/* Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body > * {
+    padding-left: var(--default-padding-value);
+    padding-right: var(--default-padding-value);
+}
+
+header {
+    padding: 16px var(--default-padding-value);
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-primary-color);
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--hero-primary-color);
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--hero-secondary-color);
+}
+
